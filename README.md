@@ -50,7 +50,7 @@ Success!
 
 The built-in server offered by `flask` is only useful for development and serves only one request at a time by default - read about flask [deployment options](http://flask.pocoo.org/docs/0.12/deploying/#deployment).
 
-Therefore, in order to actually serve multiple clients concurrently, one of the solutions in the above deployment link must be used. Ultimately it's up to you, but I've included an example running `gunicorn` to serve requests with the `gevent` async worker (which is more suited to long-running scripts or outgoing requests to other APIs etc.).
+Therefore, in order to actually serve multiple clients concurrently, one of the solutions in the above deployment link must be used. Ultimately it's up to you, but I've included an example running `gunicorn` to serve requests with the `gevent` async worker (which is more suited to long-running scripts or outgoing requests to other APIs etc.). The number of workers should roughly be around `(2 x $num_cores) + 1` as the [documentation suggests](http://docs.gunicorn.org/en/stable/design.html).
 
 ### Install in the virtualenv
 
