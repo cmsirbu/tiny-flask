@@ -30,14 +30,19 @@ Once you have that set up, you can start the application in development mode any
 # activate the virtualenv (only if it's not already)
 source venv/bin/activate
 # start flask's development webserver
-FLASK_APP=tinyflask flask run
+FLASK_DEBUG=1 FLASK_APP=tinyflask flask run
 ```
+
+The `FLASK_DEBUG` is absolutely essential for development: project files will be monitored for changes and the app restarted automatically + any errors/exceptions will be shown in page graphically as well as in the console.
 
 You should see a message like this:
 
 ```
  * Serving Flask app "tinyflask"
+ * Forcing debug mode on
  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
 ```
 
 Now open `http://127.0.0.1:5000/` in your browser:
