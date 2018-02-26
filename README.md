@@ -1,6 +1,6 @@
 # A tiny flask web app blueprint
 
-This a basic `python3` [flask webapp](http://flask.pocoo.org/) blueprint for quickly adding a web interface to your python scripts. What you get:
+This is a basic `python3` [flask webapp](http://flask.pocoo.org/) blueprint for quickly adding a web interface to your python scripts. What you get:
 
 - A [flask webapp](http://flask.pocoo.org/) organized as a python package following the [larger applications template](http://flask.pocoo.org/docs/0.12/patterns/packages/#larger-applications).
 - A html template starting point using [Bootstrap 3.3.7](https://getbootstrap.com/docs/3.3/) to extend for pretty, modern and responsive webpages!
