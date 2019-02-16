@@ -76,7 +76,7 @@ gunicorn tinyflask:app -b 127.0.0.1:5000 --workers 3 -k gevent
 
 ### Build and run a Docker container
 
-Building a container is a bit more involved, but it provides are very nice minimally packaged version of the webapp that can run on any Docker enabled host.
+Building a container is a bit more involved, but it provides a very nice minimally packaged version of the webapp that can run on any Docker enabled host.
 
 ```
 # build the container
