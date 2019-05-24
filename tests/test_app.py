@@ -1,5 +1,6 @@
 from tinyflask import app
 
+
 def test_http_root():
     """
     Test the / path works and returns the expected template.
