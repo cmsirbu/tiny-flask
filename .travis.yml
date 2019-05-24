@@ -8,5 +8,5 @@ install:
   - "pip3 install -qe ."
 
 script:
-  - "black --check --verbose"
+  - "black --check --verbose ."
   - "py.test"

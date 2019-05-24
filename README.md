@@ -1,9 +1,12 @@
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/python/black)[![Build Status](https://travis-ci.org/cmsirbu/tiny-flask.svg?branch=master)](https://travis-ci.org/cmsirbu/tiny-flask)
+
 # A tiny flask web app blueprint
+
 
 This is a basic `python3` [flask webapp](http://flask.pocoo.org/) blueprint for quickly adding a web interface to your python scripts. What you get:
 
 - A [flask webapp](http://flask.pocoo.org/) organized as a python3 package following the [larger applications template](http://flask.pocoo.org/docs/0.12/patterns/packages/#larger-applications).
-- A html template starting point using [Bootstrap 3.3.7](https://getbootstrap.com/docs/3.3/) to extend for pretty, modern and responsive webpages!
+- A html template starting point using [Bootstrap 3.4.1](https://getbootstrap.com/docs/3.4/) to extend for pretty, modern and responsive webpages!
 - A [Dockerfile](Dockerfile) to build your very own container and easily deploy it anywhere.
 
 ## Start here
