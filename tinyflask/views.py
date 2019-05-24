@@ -4,6 +4,6 @@ from tinyflask.config import *
 from flask import render_template
 
 
-@app.route('/')
+@app.route("/")
 def index():
-    return render_template('index.html', globals=app_globals)
+    return render_template("index.html", globals=app_globals)
