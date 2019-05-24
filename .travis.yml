@@ -1,0 +1,12 @@
+---
+language: "python"
+python:
+  - "3.6"
+
+install:
+  - "pip3 install black pytest"
+  - "pip3 install -qe ."
+
+script:
+  - "black --check --verbose"
+  - "py.test"
