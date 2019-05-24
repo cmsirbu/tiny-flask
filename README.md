@@ -1,4 +1,4 @@
-[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/python/black)[![Build Status](https://travis-ci.org/cmsirbu/tiny-flask.svg?branch=master)](https://travis-ci.org/cmsirbu/tiny-flask)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/python/black) [![Build Status](https://travis-ci.org/cmsirbu/tiny-flask.svg?branch=master)](https://travis-ci.org/cmsirbu/tiny-flask)
 
 # A tiny flask web app blueprint
 
